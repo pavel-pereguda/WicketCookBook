@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<style>
+			label { width: 100px; display: block; float:left;}
+			li.feedbackPanelINFO { color:green; }
+		</style>
+	</head>
+    <body>
+     	<div wicket:id="feedback"></div>
+     	<form wicket:id="form">
+     		<label>Payment Type:</label><select wicket:id="type"></select><br/>
+     		<div wicket:id="payment"></div>
+			<input type="submit" value="Place Order"/>
+     	</form>
+    </body>
+</html>

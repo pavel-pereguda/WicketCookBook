@@ -1,0 +1,10 @@
+{
+	"bg_colour": "#FFFFFF", "title":{"text":"${title}"}
+	,"x_axis": { "steps":"86400","stroke":"1","colour":"#0000FF","grid-colour":"#FFFFFF",
+		"labels":{"text":"#date:d M Y#"}}
+	,"y_axis": { "stroke":"1","colour":"#0000FF","grid-colour":"#FFFFFF","min": "${min}", "max":"${max}", "steps":"100"}
+	,"elements": [ 
+		{ "type": "line", 
+			"dot-style":{"tip":"#date:d M Y# - #y#"},
+			"width":"1", "values": [ ${values} ]}]
+}

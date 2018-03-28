@@ -1,0 +1,4 @@
+swfobject.embedSWF("${swf}","${id}","${width}","${height}" 
+	,"9.0.0","expressInstall.swf"
+	,{${params}}
+);

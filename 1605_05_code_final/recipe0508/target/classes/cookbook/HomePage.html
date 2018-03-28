@@ -1,0 +1,28 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+    <head>  
+        <title>Wicket Quickstart Archetype Homepage</title>
+	    <style type="text/css">
+			table.contacts {
+				border-width: 0px;
+				border-color: gray;
+				border-collapse: collapse;
+			}
+			table.contacts th, table.contacts td {
+				border-width: 1px;
+				padding: 3px;
+				border-style: inset;
+				border-color: gray;
+			}
+			table.contacts th {
+				font-weight: bold;
+			}
+			
+			table.contacts tr { background-color: white; cursor: pointer; }
+			table.contacts tr.zebra { background-color: #ddd; }
+		</style>
+    </head>
+    <body>
+		<div wicket:id="feedback"></div>
+       	<table wicket:id="contacts" class="contacts"></table>
+    </body>
+</html>

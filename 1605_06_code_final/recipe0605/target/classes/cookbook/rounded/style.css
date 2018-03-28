@@ -1,0 +1,23 @@
+.rc_box {
+   background: #cccccc;
+}
+.rc_top div {
+   background: url(rc_tl.png) no-repeat top left;
+}
+.rc_top {
+   background: url(rc_tr.png) no-repeat top right;
+}
+.rc_bottom div {
+   background: url(rc_bl.png) no-repeat bottom left;
+}
+.rc_bottom {
+   background: url(rc_br.png) no-repeat bottom right;
+}
+
+.rc_top div, .rc_top, 
+.rc_bottom div, .rc_bottom {
+   width: 100%;
+   height: 30px;
+   font-size: 1px;
+}
+.rc_content { margin: 0 30px; }

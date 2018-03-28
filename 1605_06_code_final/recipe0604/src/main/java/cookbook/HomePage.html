@@ -1,0 +1,30 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+    <head>
+		<link href="/css/ui-lightness/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery-ui-1.8.4.custom.min.js"></script>
+        <script type="text/javascript">$(function() {$("#formbody").tabs();});</script>
+        <style>.feedbackPanelERROR { color: red; }</style>
+    </head>
+    <body>
+    	<h3>Create New User</h3>
+    	<div wicket:id="feedback"></div>
+		<form wicket:id="form">
+			<div id="formbody">
+				<ul>
+					<li><a href="#user"><span>User Information</span></a></li>
+					<li><a href="#marketing"><span>Marketing Information</span></a></li>
+				</ul>
+				<div id="user">
+					Email: <input wicket:id="email" type="text" size="30"/><br/>
+					Name: <input wicket:id="name" type="text" size="20"/><br/>
+				</div>
+				<div id="marketing">
+				<input wicket:id="company" type="checkbox">Allow us to send you interesting emails<br/>
+				<input wicket:id="partners" type="checkbox">Allow our partners to send you interesting emails<br/>
+				</div>
+			</div>
+			<input wicket:id="create" type="submit" value="Create"/>
+      	</form>
+    </body>
+</html>

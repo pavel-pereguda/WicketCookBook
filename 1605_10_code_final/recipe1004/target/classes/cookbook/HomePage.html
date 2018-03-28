@@ -1,0 +1,14 @@
+<html>
+    <body>
+		<h4>Edit Employee</h4>
+        <form wicket:id="form">
+        	Name:<br/><input wicket:id="name" type="text" size="20"/><br/>
+        	Email:<br/><input wicket:id="email" type="text" size="20"/><br/>
+        	<wicket:enclosure child="review">
+        	Review:<br/><textarea wicket:id="review" cols="40" rows="5"></textarea><br/>
+        	</wicket:enclosure>
+        	
+        	<input type="submit" value="Save"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{
+	"bg_colour": "#FFFFFF"
+	,"elements": [ 
+		{ "type": "line", "colour":"#00ff00",
+			"dot-style":{ "on-click":"${onclick1}" },
+			"values": [ 1,2,4,8,5,4,3,2,1 ]},
+		{ "type": "line", "colour":"#ff0000",
+			"dot-style":{ "on-click":"${onclick2}" },
+			"values": [ 5,4,3,3,4,5,6,7,7 ]}		
+	]
+}

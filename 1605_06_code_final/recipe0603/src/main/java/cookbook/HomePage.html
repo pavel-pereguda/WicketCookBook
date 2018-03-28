@@ -1,0 +1,25 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+    <head>
+    	<wicket:link>  
+			<link href="style.css" rel="stylesheet" type="text/css" />
+		</wicket:link> 
+		<style>
+			li.feedbackPanelERROR { color: red; }
+		</style>
+        
+    </head>
+    <body>
+    	<h3>Create New User</h3>
+    	<wicket:enclosure child="feedback">
+	    	Please correct the following errors before attempting to switch tabs or creating the user:
+	    	<div wicket:id="feedback"></div>
+	    </wicket:enclosure>
+		<form wicket:id="form">
+			<div style="width: 400px;">
+	      		<div wicket:id="tabs" class="tabpanel"></div>
+	      	</div>
+	      	<br/>
+			<input type="submit" value="Create"/>
+      	</form>
+    </body>
+</html>

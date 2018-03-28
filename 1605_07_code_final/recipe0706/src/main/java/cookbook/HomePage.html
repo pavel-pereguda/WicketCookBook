@@ -1,0 +1,15 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+    <head>
+    	<style>.feedbackPanelERROR { color:red; }</style>  
+    </head>
+    <body>
+        <h3>Registration</h3>
+        <form wicket:id="form">
+        	Username: <input type="text" wicket:id="username" size="20"/><br/>
+        	<div wicket:id="username-feedback"></div>
+        	Password: <input type="password" wicket:id="password" size="15"/><br/>
+        	<div wicket:id="password-feedback"></div>
+        	<input type="submit" value="Register"/>
+        </form>
+    </body>
+</html>

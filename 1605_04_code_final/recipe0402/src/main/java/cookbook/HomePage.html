@@ -1,0 +1,17 @@
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+    <head>
+    	<style>
+	    	li.feedbackPanelINFO { color:green; }
+	    	li.feedbackPanelERROR { color:red; }
+    	</style> 
+    </head>
+    <body>
+    	<h4 wicket:id="title"></h4>
+		<div wicket:id="feedback"></div>
+		<form wicket:id="form">
+			<label wicket:id="emailLabel"></label>:
+			<input wicket:id="email" type="text"/>
+			<input type="submit"/>
+		</form>
+    </body>
+</html>
