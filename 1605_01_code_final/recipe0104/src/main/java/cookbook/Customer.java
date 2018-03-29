@@ -23,6 +23,6 @@ public class Customer extends Address{
     }
 
     public void setAddress(Address address) {
-        this.address = address;
+        this.address = String.valueOf(address);
     }
 }

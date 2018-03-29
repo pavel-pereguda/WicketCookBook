@@ -19,8 +19,9 @@ public class Start {
 
     WebAppContext bb = new WebAppContext();
     bb.setServer(server);
+
     bb.setContextPath("/");
-    bb.setWar("D:\\Wicket CookBook\\1605_01_code_final\\recipe0104\\target\\recipe0104-1.0-SNAPSHOT.war");
+    bb.setWar("D:\\q3kasper\\WicketCookBook\\WicketCookBook\\1605_01_code_final\\recipe0104\\target\\recipe0104-1.0-SNAPSHOT.war");
 
     // START JMX SERVER
     // MBeanServer mBeanServer = ManagementFactory.getPlatformMBeanServer();

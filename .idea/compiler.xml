@@ -14,7 +14,7 @@
       <module name="recipe0101" target="1.5" />
       <module name="recipe0102" target="1.5" />
       <module name="recipe0103" target="1.7" />
-      <module name="recipe0104" target="1.5" />
+      <module name="recipe0104" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

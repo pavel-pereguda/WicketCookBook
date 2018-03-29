@@ -18,7 +18,7 @@ public class AnotherPage extends WebPage{
   public AnotherPage () {
       Customer customer = new Customer();
       customer.setAddress(new Address());
-      customer.getAddress().set
+
 
   }
 }
